@@ -13,22 +13,25 @@ public class hemläxav37 {
 		int age = 0;
 		String name2 = "nothing"; 
 		int postnummer = 0;
-		String name3 = "nothing";
+		String name3 = "nothinges";
 		int userPhonenumber = 0;
 		
 		//Step 2: Prompt user and take input 
 		System.out.print("Vad heter du: ");
-		name1 = s.next();
+		name1 = s.nextLine();
 		System.out.print("Hur gammal är du: ");
 		age = s.nextInt();
 		System.out.print("Vad är din adress: ");
-		name2 = s.next();
+		s.nextLine();
+		name2 = s.nextLine();
 		System.out.print("Vad är ditt postnummer: ");
 		postnummer = s.nextInt();
+		s.nextLine();
 		System.out.print("Vilken stad bor du i: ");
-		name3 = s.next();
+		name3 = s.nextLine();
 		System.out.print("Vad är ditt telefon nummer: ");
 		userPhonenumber = s.nextInt();
+		s.nextLine();
 		
 		//Step 3: Use inputs.
 		System.out.println("Information");
