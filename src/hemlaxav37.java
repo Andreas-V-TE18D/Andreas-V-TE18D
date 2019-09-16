@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hemläxav37 {
+public class hemlaxav37 {
 	//1. Take input for strings 
 	//2. Take input for integers 
 	//3. Take input for doubles 
